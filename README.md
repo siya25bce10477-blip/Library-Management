@@ -1,9 +1,9 @@
 # Library-Management
 Project Overview
 
-This project is a console-based Library Management System written in Python.
-It allows users to manage a small library by adding books, viewing all books, searching for specific books, issuing books to students, returning books, and deleting books from the system.
-The system stores books in Python lists of dictionaries, making it simple and easy to understand for beginners learning Python and data structures.
+This project is a based on Library Management System codded in Python.
+It allows users to manage library to add books, view all books, search for specific books, issue books to students, return books, and delete books from the system.
+The system stores books in Python lists of dictionaries, makes it simple and easy to understand for beginners in learning Python and data structures.
 
 Features
 1. Add Book
@@ -29,7 +29,7 @@ Removes the record from issued_books.
 Increments the book quantity.
 
 6. Delete Book
-Deletes a book using its ID.
+Delete a book using its ID.
 Confirms deletion or shows "Book Not Found".
 
 7. Exit
@@ -37,7 +37,7 @@ Ends the program.
 
 Technologies / Tools Used 
 
-This project is built entirely using core Python, making it simple, lightweight, and easy to run without additional installations. It relies on basic Python features such as lists and dictionaries to store book records and issued-book information, allowing for efficient in-memory data management. The program structure is organized through functions, which help separate tasks like adding, issuing, returning, and deleting books. Additionally, the system uses conditional statements, loops, and user input/output functions to control the menu flow and provide an interactive console-based experience. No external libraries or frameworks are used, ensuring the project runs smoothly on any system with Python installed.
+This project is built entirely using core Python, making it simple, lightweight, and easy to run without additional installations. It relies on basic Python features such as lists and dictionaries to store book records and issued-book information, allowing for efficient in-memory data management. The program structure is organized through functions, which help separate tasks like adding, issuing, returning, and deleting books. Additionally, the system uses conditional statements, loops, and user input/output functions to control the menu flow and provide an interactive experience. No external libraries or frameworks are used, ensuring the project runs smoothly on any system with Python installed.
 
 Steps to Install & Run the Project
 
@@ -51,4 +51,4 @@ Steps to Install & Run the Project
 
 Instructions for Testing the Project
 
-To test the Library Management System, begin by running the program and ensuring the main menu appears correctly. Start by adding a book using the “Add Book” option, entering details such as the book ID, title, author, and quantity; this confirms that book creation and storage work properly. Next, test the “View All Books” option to check whether the newly added book appears in the list. After that, use the “Search Book” feature and enter the same book ID to verify that the search function retrieves accurate details. You can then test the issuing process by selecting “Issue Book,” providing the book ID and a student name, and confirming that the program decreases the book’s quantity and records the issued entry. To validate the return process, use the “Return Book” option with the same book ID and student name and ensure that the system removes the issued record and restores the book quantity. Finally, test the “Delete Book” option to check whether the book can be removed from the system, and confirm everything works smoothly by viewing the book list again or attempting to search for the deleted ID. Completing these steps ensures that each feature behaves as expected.
+To test the Library Management System, we will begin by running the program and ensuring the main menu appears correctly. Start by adding a book using the “Add Book” option, entering details such as the book ID, title, author, and quantity; this confirms that book creation and storage work properly. Next, test the “View All Books” option to check whether the newly added book appears in the list. After that, use the “Search Book” feature and enter the same book ID to verify that the search function retrieves accurate details. You can then test the issuing process by selecting “Issue Book,” providing the book ID and a student name, and confirming that the program decreases the book’s quantity and records the issued entry. To validate the return process, use the “Return Book” option with the same book ID and student name and ensure that the system removes the issued record and restores the book quantity. Finally, test the “Delete Book” option to check whether the book can be removed from the system, and confirm everything works smoothly by viewing the book list again or attempting to search for the deleted ID. Completing these steps ensures that each feature behaves as expected.
