@@ -1,7 +1,7 @@
 Problem Statement
 
-Managing a small library manually can be time-consuming and prone to errors. 
-Tasks such as recording book details, tracking issued books, searching for specific titles, and managing returns or deletions often lead to inconsistencies when done on paper.
+Managing a small library manually can be time-consuming and can lead to errors. 
+Tasks such as record book details, track issued books, search for specific titles, and manage returns or deletions often lead to inconsistencies when done on paper.
 The absence of a simple automated system makes it difficult for library staff or students to quickly access book information or monitor availability. 
 This project aims to solve these issues by providing a basic console-based Library Management System that helps organize books efficiently and perform essential library operations in an accurate and user-friendly way.
 
